@@ -1,12 +1,12 @@
 # Site navigation links
 
-- title: Posts
+- title: 포스트
   url: /posts/
-- title: Categories
+- title: 카테고리
   url: /categories/
-- title: Tags
+- title: 태그
   url: /tags/
-- title: Projects
+- title: 프로젝트
   url: /projects/
-- title: Search
+- title: 검색
   url: /search/

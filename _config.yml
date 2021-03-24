@@ -24,18 +24,18 @@ description: "@@ 공사중 @@"
 baseurl: ""
 url: "https://p-ey.github.io"
 logo: "/images/site-logo.png"
-date_format: "%Y/%B/%-d"
+date_format: "%Y/%-m/%-d"
 read_time: true
 words_per_minute: 200
 mathjax:
   enable: true
   combo: "tex-svg"
   tags: "ams"
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
+# google_fonts:
+#   - name: "Nanum Myeongjo"
+#     weights: "400,700,800"
+#   - name: "Lora"
+#     weights: "400,400i,700,700i"
 # google_analytics: "UA-2011187-2"
 # disqus:
 #   shortname: "deepdivedev"
@@ -95,14 +95,14 @@ defaults:
     values:
       layout: post
       comments: true
-      share: true
+      # share: true
   - scope:
       path: "_projects"
       type: projects
     values:
       layout: post
-      comments: true
-      share: true
+      # comments: true
+      # share: true
 
 # Site Author
 author:
@@ -111,31 +111,32 @@ author:
   email: eun.ppppp@gmail.com
   # twitter: mmistakes
   # links:
+  #   - title: GitHub
+  #     url: https://github.com/p-ey
+  #     icon: fab fa-github-square
   #   - title: Twitter
   #     url: https://twitter.com/mmistakes
   #     icon: fab fa-twitter-square
   #   - title: Instagram
   #     url: https://instagram.com/mmistakes
   #     icon: fab fa-instagram
-  #   - title: GitHub
-  #     url: https://github.com/mmistakes
-  #     icon: fab fa-github-square
+
 
 # Footer Links
-# footer_links:
+footer_links:
 #   - title: Twitter
 #     url: https://twitter.com/mmistakes
 #     icon: fab fa-twitter-square
 #   - title: Instagram
 #     url: https://instagram.com/mmistakes
 #     icon: fab fa-instagram
-#   - title: GitHub
-#     url: https://github.com/mmistakes
-#     icon: fab fa-github-square
-#   - title: Feed
-#     url: atom.xml
-#     icon: fas fa-rss-square
+  - title: GitHub
+    url: https://github.com/p-ey
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
 
 sass:
-  sass_dir: _scss
+  sass_dir: assets/css
   style: compressed
