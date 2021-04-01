@@ -6,4 +6,6 @@ collection: projects
 entries_layout: grid
 ---
 
-Sample document listing for the collection `_projects`.
+포트폴리오 작성 예정
+
+TBD
